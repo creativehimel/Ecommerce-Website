@@ -4,9 +4,9 @@ import '@fontsource-variable/inter'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
-import { BiStarHalf, BiStarFill } from 'oh-vue-icons/icons'
+import { BiStarHalf, BiStarFill, BiCart3, LaShoppingBagSolid } from 'oh-vue-icons/icons'
 
-addIcons(BiStarHalf, BiStarFill)
+addIcons(BiStarHalf, BiStarFill, BiCart3, LaShoppingBagSolid)
 import App from './App.vue'
 import router from './router'
 

@@ -41,7 +41,7 @@ function getSlug(title) {
       <button
         class="bg-green-700 bg-opacity-40 hover:bg-[#8ec641] font-semibold w-full py-1.5 rounded mt-1.5 text-green-800 hover:text-white transition-all duration-300"
       >
-        <RouterLink :to="{ name: 'singleProduct', params: { id: getSlug(product.title) } }"
+        <RouterLink :to="{ name: 'singleProduct', params: { id: product.id } }"
           >View Details</RouterLink
         >
       </button>

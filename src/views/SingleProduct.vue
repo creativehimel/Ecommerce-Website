@@ -12,6 +12,29 @@ console.log(product)
 </script>
 
 <template>
+  <section class="container mx-auto py-10">
+    <div class="grid grid-cols-2">
+      <div class="place-content-center">
+        <img :src="product.thumbnail" alt="Product image" />
+      </div>
+      <div>
+        <h3 class="text-4xl font-bold text-gray-600 border-b-2">{{ product.title }}</h3>
+        <div>
+          <div>
+            <v-icon name="bi-star-fill" class="text-yellow-500" scale="1" />
+            <v-icon name="bi-star-fill" class="text-yellow-500" scale="1" />
+            <v-icon name="bi-star-fill" class="text-yellow-500" scale="1" />
+            <v-icon name="bi-star-fill" class="text-yellow-500" scale="1" />
+            <v-icon name="bi-star-half" class="text-yellow-500" scale="1" />
+            <span class="font-inter font-semibold text-gray-600">({{ product.rating }})</span>
+          </div>
+        </div>
+        <h3></h3>
+        <h3>{{ product.title }}</h3>
+        <h3>{{ product.title }}</h3>
+      </div>
+    </div>
+  </section>
   <section class="container mx-auto">
     <div id="product-info">
       <div class="item-image-parent">
